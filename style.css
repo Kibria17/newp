@@ -1,0 +1,238 @@
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    background-color: #ffffff;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #007BFF;
+}
+nav button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: #0056b3;
+}
+
+/* Main Section */
+.section1{
+    padding: 80px 120px;
+    text-align: center;
+    background-image: url('../assets/hero-bg.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.section1 button{
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+.section1 .btn3 img{
+    margin-left: 8px;
+    vertical-align: middle;
+    
+}
+.section1.btn4{
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.section1 button:hover{
+    background-color: #0056b3;
+}
+.section1 div button{
+    border-radius: 4px;
+}
+.section1 h1{
+    font-size: 48px;
+}
+.section1 h1.note{
+    color: #007BFF;
+}
+.section1 p{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Section 2 */
+.section2{
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.s2d1{
+    text-align: center;
+    align-items: center;
+}
+.s2d1 h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.s2d1 p{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 16px;
+}
+.s2d2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.s2d2 div{
+    padding: 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+}
+.s2d2 div img{
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 16px;
+}
+/* Section 3 */
+.section3{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+.section3 div img{
+    border-radius: 12px;
+}
+.s3d2 h5 img{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.s3d2 h2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+.s3d2 h4{
+    color: #007BFF;
+    font-weight: 700;
+}
+/* section4 */
+.section4{
+    padding: 0 120px 120px 120px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+}
+.s4d2{
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    padding: 80px 40px;
+    align-items: center;
+}
+.s4d2 h2{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+}
+.s4d2 button{
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.s4d2 button img{
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.s4d2 button:hover{
+    background-color: #0056b3;
+}
+/* footer */
+footer{
+    background: var(--Style, rgba(0, 25, 49, 1));
+}
+
+.fd1{
+    padding: 120px 120px 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copy{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 24px;
+    align-items: center;
+}
+.copy hr{
+    border: 0.5px solid #555555;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.footer-social {
+    text-align: center;
+}
+
+.footer-social h4 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background: #3b82f6;
+}
